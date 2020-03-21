@@ -1,7 +1,7 @@
 def printing_hello():
     print("Привет GitHub!")
 
-print ("Этот текст нужно удалить!")
+# удалил
 
 def input_name():
     name = input("Введите Ваше имя: ")
