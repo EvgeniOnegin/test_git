@@ -2,9 +2,9 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 
 
 class MyHeader(BaseHTTPRequestHandler):
-
+    """ Класс - потомок для реализации HTTP-серверов."""
     def do_GET(self):
-
+        """ Метод """
         print('Вы в GET request')
         self.send_response(200) #200 код - подключение успешно
         self.send_header('Content-type', 'text-plain')
